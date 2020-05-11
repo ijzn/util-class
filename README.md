@@ -1,5 +1,27 @@
+使用文档
+```
+npm i -D utils-class
+
+import { getIn } from 'utils-class'
+cosnt person = {
+ name: {
+  newName: 'sun',
+  oldName: 'flover'
+ },
+ childre: [{
+  name: 'zhangsan'
+ },{
+  name: 'lisi'
+ }]
+}
+
+getIn(person, ['name','newName'], '') // 'sun'
+getIn(person, ['childre', 0, 'name'], '') // zhangsan
+getIn(person, ['sex'], '默认值') // 默认值
+
+```
+
 ## manipulate 防空处理
-import {} from "Utils.ts";
 
 |  函数名  |                          说明                          |
 | :------: | :----------------------------------------------------: |
