@@ -1,0 +1,19 @@
+{
+  "name": "utils-class",
+  "version": "1.0.1",
+  "description": "常用工具防空类",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ijzn/util-class.git"
+  },
+  "author": "liangliang.jin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ijzn/util-class/issues"
+  },
+  "homepage": "https://github.com/ijzn/util-class#readme"
+}
