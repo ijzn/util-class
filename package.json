@@ -1,6 +1,6 @@
 {
   "name": "utils-class",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "常用工具防空类",
   "main": "index.js",
   "scripts": {
